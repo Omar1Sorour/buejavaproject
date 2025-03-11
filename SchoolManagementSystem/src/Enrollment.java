@@ -5,4 +5,7 @@ public class Enrollment{
     private int studentID;
     private int moduleID;
     private Status enrollmentStatus;
+    public enum Status {
+        ACTIVE, CANCELLED;
+    }
 }
