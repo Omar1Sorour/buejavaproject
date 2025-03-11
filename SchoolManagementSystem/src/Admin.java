@@ -1,4 +1,5 @@
 import java.util.List;
+
 public class Admin extends Staff {
     
     // Constructor
