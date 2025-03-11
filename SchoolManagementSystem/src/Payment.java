@@ -85,7 +85,7 @@ public class Payment {
         return true;
     }
 
-    public String generateReceipt(int paymentID) {
+    public String generateReceipt() {
         return "Receipt for Payment ID: " + paymentID + "\nAmount: " + amount + "\nDate: " + date;
     }
 }
