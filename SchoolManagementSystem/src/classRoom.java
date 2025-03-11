@@ -1,14 +1,14 @@
-public class classRoom {
+public class Classroom {
     private int classroomId;
     private String roomName;
     private int capacity;
 
     // Constructor
     public Classroom(int classroomId, String roomName, int capacity) {
-            this.classroomId = classroomId;
-            this.roomName = roomName;
-            this.capacity = capacity;
-        }
+        this.classroomId = classroomId;
+        this.roomName = roomName;
+        this.capacity = capacity;
+    }
 
     // Getters and Setters
     public void setClassroomId(int classroomId) {
